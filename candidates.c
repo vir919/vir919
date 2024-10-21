@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-git commit --amend
+
 void _input(char array[][11][100]);
 
 int main()
