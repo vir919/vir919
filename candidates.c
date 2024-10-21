@@ -5,7 +5,7 @@ void _input(char array[][11][100]);
 
 int main()
 {
-    char array[5][11][100];  
+    char array[5][11][100];
     _input(array);
 
     for (int k = 0; k < 5; k++)
