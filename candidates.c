@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-void _input(char array[][11][100]);  
+void _input(char array[][11][100]); 
 
 int main()
 {
