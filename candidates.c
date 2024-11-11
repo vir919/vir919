@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 
-void _input(char array[][11][100]);
+void _input(char array[][12][100]);  
 
 int main()
 {
-    char array[5][11][100];  
+    char array[5][12][100];
     _input(array);
 
     for (int k = 0; k < 5; k++)
@@ -20,7 +20,7 @@ int main()
             array[k][1], array[k][2], array[k][3], array[k][4], array[k][5],
             array[k][6], array[k][7], array[k][8], array[k][9], array[k][10]);
         printf("--------------------------------------------------------------------------------------------\n");
-        printf("소개: %s\n", array[k][11]);
+        printf("소개: %s\n", array[k][11]);  // 소개 출력
         printf("--------------------------------------------------------------------------------------------\n");
         printf("무한한 열정과 창의성을 갖춘 댄서이자 작곡가로, 함께 꿈을 향해 달려갈 준비가 되어 있습니다.\n");
         printf("============================================================================================\n\n");
@@ -29,7 +29,7 @@ int main()
     return 0;
 }
 
-void _input(char array[][11][100])
+void _input(char array[][12][100])  // 크기를 맞추기 위해 두 번째 차원을 12로 수정
 {
     for (int k = 0; k < 5; k++)
     {
